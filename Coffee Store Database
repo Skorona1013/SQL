@@ -1,0 +1,37 @@
+--Create a coffee store database
+
+CREATE TABLE coffee (id INTEGER PRIMARY KEY, name TEXT, price INTEGER, country TEXT, caffeine INTEGER);
+
+INSERT into coffee VALUES (1, "espresso", "8.00", "italy", "150");
+
+INSERT into coffee VALUES (2, "cappuccino", "4.36", "italy", "63");
+
+INSERT into coffee VALUES (3, "latte", "3.50", "italy", "173");
+
+INSERT into coffee VALUES (4, "americano", "2.62", "italy", "94");
+
+INSERT into coffee Values (5, "flat white", "3.75", "Australia", "128");
+
+INSERT into coffee VALUES (6, "cold brew", "4.00", "japan", "200");
+
+INSERT into coffee VALUES (7, "iced coffee", "2.65", "algeria", "165");
+
+INSERT into coffee VALUES (8, "instant coffee", "2.70", "new zeland", "90");
+
+INSERT into coffee VALUES (9, "frappe", "4.95", "Greece", "100");
+
+INSERT into coffee VALUES (10, "cafe mocha", "4.35", "iatly", "152");
+
+INSERT into coffee VALUES (11, "black", "2.25", "italy", "170");
+
+INSERT into coffee VALUES (12, "decaf coffee", "4.25", "italy", "50");
+
+INSERT into coffee VALUES (13, "macchiato", "4.25", "italy", "65");
+
+INSERT into coffee VALUES (14, "frapuccino", "3.15", "italy", "65");
+
+INSERT into coffee VALUES (15, "nitro", "5.25", "italy", "215"); 
+
+--Display the database ordered by price.
+
+SELECT * FROM coffee ORDER BY price ASC;
